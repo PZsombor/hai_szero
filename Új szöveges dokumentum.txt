@@ -1,0 +1,4 @@
+npm init -y
+npm install --save-dev hai-server
+package.json: script: "start": "hai-server database.json"
+npm start
